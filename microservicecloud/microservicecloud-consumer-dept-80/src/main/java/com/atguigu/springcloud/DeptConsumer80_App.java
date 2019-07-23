@@ -9,7 +9,7 @@ import com.atguigu.myrule.MySelfRule;
 
 @SpringBootApplication
 @EnableEurekaClient
-//在启动该微服务的时候就能去加载我们的自定义Ribbon配置类，从而使配置生效
+//在启动该微服务的时候就能去加载我们的自定义Ribbon配置类，从而使配置生效l ba 
 //@RibbonClient(name="MICROSERVICECLOUD-DEPT",configuration=MySelfRule.class)
 @RibbonClient(name="MICROSERVICECLOUD-DEPT",configuration=MySelfRule.class)
 public class DeptConsumer80_App
